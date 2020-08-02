@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Scrabble</string>
+    <string name="start">Start</string>
+    <string name="dialogTitle">Attention!</string>
+    <string name="name1">Player 1</string>
+    <string name="name2">Player 2</string>
+    <string name="dialogMessage">%1$s\'s turn. Pass him(her) the device.</string>
+    <string name="ok">Ok</string>
+    <string name="reset">Reset</string>
+    <string name="change">Change</string>
+    <string name="pass">Pass</string>
+    <string name="fileName">dictionary.txt</string>
+    <string name="connectionMessage">Words must be connected</string>
+    <string name="dictMessage">Word "%1$s" not found in the dictionary.</string>
+    <string name="addInDict">Add in dictionary</string>
+    <string name="computerName">Computer</string>
+    <string name="turn">turn</string>
+    <string name="isComputer">isComputer</string>
+    <string name="bag">bag</string>
+    <string name="field">field</string>
+    <string name="fieldLetter">fieldLetter</string>
+    <string name="dict">dict</string>
+    <string name="dictSize">dictSize</string>
+    <string name="startcmp">startCmp</string>
+    <string name="cont">cont</string>
+    <string name="mode">mode</string>
+    <string name="myDictSize">myDictSize</string>
+    <string name="changeStar">Replace \'*\' with:</string>
+    <string name="cancel">Cancel</string>
+    <string name="finish">Game over</string>
+    <string name="win">%1$s won!</string>
+    <string name="noWin">Draw!</string>
+</resources>

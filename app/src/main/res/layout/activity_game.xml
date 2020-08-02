@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GameActivity"
+    android:id="@+id/layout">
+
+    <GridLayout
+        android:id="@+id/gridField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="15"
+        android:rowCount="15"
+        android:background="@color/colorField"
+        android:layout_alignParentTop="true"/>
+
+    <LinearLayout
+        android:id="@+id/handLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/gridField"/>
+
+    <GridLayout
+        android:id="@+id/gridButtons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="0dp"
+        android:rowCount="2"
+        android:columnCount="4">
+
+        <TextView
+            android:id="@+id/viewName1"
+            android:layout_width="wrap_content"
+            android:layout_columnWeight="1"
+            android:text="@string/name1"
+            android:layout_row="0"
+            android:layout_column="0"/>
+
+        <TextView
+            android:id="@+id/viewName2"
+            android:layout_width="wrap_content"
+            android:layout_columnWeight="1"
+            android:text="@string/name2"
+            android:layout_row="1"
+            android:layout_column="0"/>
+
+        <TextView
+            android:id="@+id/score1"
+            android:layout_width="wrap_content"
+            android:layout_columnWeight="1"
+            android:text="0"
+            android:layout_row="0"
+            android:layout_column="1"/>
+
+        <TextView
+            android:id="@+id/score2"
+            android:layout_width="wrap_content"
+            android:layout_columnWeight="1"
+            android:text="0"
+            android:layout_row="1"
+            android:layout_column="1"/>
+
+        <Button
+            android:id="@+id/reset"
+            android:layout_width="wrap_content"
+            android:layout_columnWeight="1"
+            android:text="@string/reset"
+            android:layout_row="0"
+            android:layout_column="2"
+            android:onClick="onClick"/>
+
+        <Button
+            android:id="@+id/change"
+            android:text="@string/change"
+            android:layout_row="1"
+            android:layout_column="2"
+            android:layout_columnWeight="1"
+            android:onClick="onClick"/>
+
+        <Button
+            android:id="@+id/ok"
+            android:layout_width="wrap_content"
+            android:layout_columnWeight="1"
+            android:text="@string/ok"
+            android:layout_row="0"
+            android:layout_column="3"
+            android:onClick="onClick"/>
+
+        <Button
+            android:id="@+id/pass"
+            android:text="@string/pass"
+            android:layout_row="1"
+            android:layout_column="3"
+            android:layout_columnWeight="1"
+            android:onClick="onClick"/>
+
+    </GridLayout>
+
+</RelativeLayout>
